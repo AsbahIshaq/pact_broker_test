@@ -7,3 +7,4 @@ This was required as there is a vulnerability in webrick <= 1.3.1 that we don't 
 
 Commit 1
 Commit 2
+Commit 3
