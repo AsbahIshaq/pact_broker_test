@@ -1,6 +1,7 @@
 module Pact
   module Fixture
 
+    # Testing 2
     def self.fixtures
       @@fixtures ||= []
     end
