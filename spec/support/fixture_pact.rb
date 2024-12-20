@@ -5,6 +5,8 @@ module Pact
       @@fixtures ||= []
     end
 
+    # Test 1 from 2nd branch
+
     def self.clear_fixtures
       @@fixtures = []
     end
@@ -16,6 +18,7 @@ module Pact
       thing
     end
 
+    # Test 2 from branch 2
     def self.check_fixtures
       fixtures.group_by(&:name).each do | name, fixture_group |
         if fixture_group.size == 1
