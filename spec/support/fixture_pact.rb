@@ -5,6 +5,8 @@ module Pact
       @@fixtures ||= []
     end
 
+    # Test 1 from 2nd branch
+
     def self.clear_fixtures
       @@fixtures = []
     end
